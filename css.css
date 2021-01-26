@@ -1,0 +1,50 @@
+ul{
+    background:rgb(105, 107, 109);
+    list-style: none;
+    display: flex;
+    margin: 100;
+    
+}
+body{
+    margin: 100;
+    padding: 50;
+    font-family: sans-serif;
+}
+ul{
+    display:flex;
+    justify-content: flex-end;
+}
+ul li{
+    padding: 10px;
+    text-transform: uppercase;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+.container{
+    width: 400px;
+    margin:auto;
+    margin-top: 100px;
+}
+input{
+    padding: 10px;
+    box-sizing: border-box;
+}
+input[type=text],
+input[type=reset],
+input[type=submit]{
+    width: 49%;
+    
+    
+}
+input[type=email]{
+    width: 49%;
+    margin: 10px 0;
+}
+input[type=submit]{
+    background: rgb(1, 112, 112);
+    border:none;
+    text-transform: uppercase;
+    width:25%
+}
